@@ -1,0 +1,12 @@
+
+=INFO REPORT==== 18-Nov-2012::00:27:43 ===
+Starting Boss in production mode....
+
+=INFO REPORT==== 18-Nov-2012::00:27:43 ===
+Starting master services on nonode@nohost
+
+=INFO REPORT==== 18-Nov-2012::00:27:44 ===
+SSL:[]
+
+=INFO REPORT==== 18-Nov-2012::00:27:44 ===
+Loading routes from "../web_page_dryer_funnel/priv/web_page_dryer_funnel.routes" ....
