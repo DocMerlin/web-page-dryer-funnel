@@ -1,7 +1,7 @@
 cd ChicagoBoss
 make
 cd ../web_page_dryer_funnel
-./init.sh start-standalone
+./init.sh start-dev-standalone
 while true; do
 	sleep 10
 done
