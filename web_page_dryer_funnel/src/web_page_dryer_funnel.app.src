@@ -1,0 +1,8 @@
+{application, web_page_dryer_funnel, [
+        {description, "My Awesome Web Framework"},
+        {vsn, "0.0.1"},
+        {modules, []},
+        {registered, []},
+        {applications, [kernel, stdlib, crypto, boss]},
+        {env, []}
+    ]}.

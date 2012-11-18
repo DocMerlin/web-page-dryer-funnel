@@ -1,0 +1,6 @@
+[submodule "ChicagoBoss"]
+	path = ChicagoBoss
+	url = https://github.com/evanmiller/ChicagoBoss.git
+[submodule "cb_admin"]
+	path = cb_admin
+	url = git://github.com/evanmiller/cb_admin.git
