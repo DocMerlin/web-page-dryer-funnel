@@ -1,1 +1,1 @@
-web: ./web_page_dryer_funnel/init-dev.sh
+web: ./run.sh
