@@ -1,0 +1,40 @@
+{%extends "index.html"%}
+	{% block body %}
+   <div class="container-narrow">
+
+      <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <h3 class="muted">Web Page Dryer Funnel</h3>
+      </div>
+
+      <hr>
+
+      <div class="jumbotron">
+        <h1>Web Page Dryer Funnel!</h1>
+        <p class="lead">This converts whatever site you wish, into PDF-y goodness.</p>
+
+	 <form class="form-horizontal" action="/pdf/pdf" method="post">
+    <fieldset>
+      <div id="legend" class="">
+        <legend class="">Web Page Dryer Funnel</legend>
+      </div>
+    <div class="control-group">
+
+          <!-- Text input-->
+          <label class="control-label" for="input01">Url:</label>
+          <div class="controls">
+            <input type="text" placeholder="http://theSiteYouWantToFunnel.com/" class="input-xlarge" name="conversion_url"> <button class="btn btn-success">Funnel!</button>
+            <p class="help-block">Copy the url of the site you want to funnel</p>
+          <!-- Button -->
+            
+          </div>
+        </div>
+
+    </fieldset>
+  </form>
+	{% endblock %}
+	<body></html>

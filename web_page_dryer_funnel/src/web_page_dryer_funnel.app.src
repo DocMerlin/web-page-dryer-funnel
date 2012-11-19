@@ -1,5 +1,5 @@
 {application, web_page_dryer_funnel, [
-        {description, "My Awesome Web Framework"},
+        {description, "Web Page Dryer Funnel"},
         {vsn, "0.0.1"},
         {modules, []},
         {registered, []},
